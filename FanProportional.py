@@ -35,7 +35,8 @@ minSpeed = 0
 maxSpeed = 100
 
 # JSON output file
-status_file = "fan_status.json"
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+status_file = os.path.join(BASE_DIR, "fan_status.json")
 
 def get_temp():
     """Read CPU temperature in °C as float"""
