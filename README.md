@@ -11,3 +11,5 @@ This script writes permanently a ```fan_status.json``` file that looks like this
 ```
 So this data could be used to read it and to display some of its data in node-red or somewhere else
 
+### FanStepped.py
+Same as in ```fan_status.json```. And the steps are now calculated dynamicly based on the desired steps.
